@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#top img{
+ padding-top: 60px;
+ margin-left: 800px;  
+}
+
+#top h2{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 39px;
+    font-weight: 760;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#top p{
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-weight: 500;
+    width: 48%;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-style: italic;
+    color:black;
+   
+
+}
+
+/* booking */
+
+#booking{
+    max-width: 600px;
+    margin-left: 450px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 68px;
+}
+
+#booking form{
+    padding:22px 0px;
+}
+
+.form-group{
+    margin: 8px;
+}
+
+#booking .btn{
+    margin: 8px 0px;
+    padding:8px 35px;
+}
+
+#booking h4{
+    color: rgb(152, 142, 142);
+    font-size: 19px;
+}
+
+#booking .bo-x h3{
+    font-size: 39px;
+    font-weight: 760;
+}
+
+#second h3{
+    color: rgb(152, 142, 142);
+    font-size: 21px;
+}
+
+#second h1{
+    font-size: 42px;
+    font-weight: 650;
+}
+
+#services{
+    padding-top: 89px;
+}
+#services .top-section h2{
+    padding: 21px;
+    margin-left: 173px;
+    font-size: 44px;
+}
+
+#services .top-section h3{
+    padding: 14px;
+    margin-left: 220px;
+    font-size: 34px;
+}
+
+
+
+#services .items{
+    display: flex;
+    margin: auto;
+    margin-left: 143px;
+}
+
+.item1{
+    width: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 34px;
+    margin: 32px;
+}
+
+.item2{
+    width: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 34px;
+    margin: 32px;
+}
+
+#services .btn-1{
+    margin-right: 378px;
+    padding: 10px 48px;
+    background: transparent;
+    color: rgb(211, 165, 165);
+    border: 3px solid rgb(80, 123, 141);
+    font-size: 18px;
+}
+
+#services .btn-1:hover{
+    background-color: black;
+    color: white;
+    border: 4px solid blue;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+#services{
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/12/15/19/eyes-149670_960_720.png");
+    background-repeat: no-repeat;
+}
+
+
+
+#services img{
+    width: 126px;
+}
+
+#services h3{
+    color:grey;
+}
+
+
+@media(max-width:991px)
+{
+    
+
+#top h2{
+padding-bottom: 75px;
+}
+
+#top p{
+  padding-top: 69px;
+}
+
+#booking{
+    margin: 0;
+}
+
+#second .box{
+    display: flex;
+    flex-direction: column;
+}
+#services .top-section .btn-1{
+display: none;
+}
+#services .top-section h2{
+    margin: 0;
+}
+
+#services .top-section h3{
+   display: none;
+}
+
+
+#services .items{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+}

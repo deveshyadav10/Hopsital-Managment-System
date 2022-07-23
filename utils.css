@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+.h-primary{
+    font-family: 'Roboto', sans-serif;
+}
+
+.h-secondary{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-height{
+    height: 60px;
+}
+
+.text-content{
+    width: 25%;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.navbar-nav{
+    margin: auto;
+    padding: 0.0625rem;
+    transition: all 200ms linear;
+  
+}
+
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: aqua;
+    letter-spacing: 1px;
+}
+
+.navbar .btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+
+.navigation-wrap.scroll-on{
+position: fixed;
+top:0;
+left: 0;
+width: 100%;
+background:rgb(231, 240, 241);
+box-shadow: 0 0.0125rem 1.75rem 0 rgb(0,0,0,0.2);
+transition: all 0.15s ease-in-out 0s;
+}
+
+footer{
+
+    background: #121c1d;
+    padding-top: 40px;
+
+}
+
+footer .text-white{
+    text-decoration: none;
+}
+
+
+.footer .row{
+    width: 650px;
+}
+
+footer a{
+    width: 80px;
+}
+
+footer a{
+    font-size: 14px;
+    color: #c4c4c4;
+    font-weight: 300;
+}
+
+/* 
+team */
+
+#team{
+    margin-top: 95px;
+    margin-bottom: 69px;
+}
+
+#team p{
+    color: rgb(66, 119, 169);
+    font-size: 19px;
+}
+.photo img{
+    width: 23px;
+}
+
+
+#team .boxes{
+    display: flex;
+    margin: auto;
+}
+
+#team .boxes .photo1{
+    width: 350px;
+    border-radius: 800px;
+    height: 350px;
+    border: 12px solid rgb(246, 243, 243)
+}
+
+#team h1{
+    font-size: 45px;
+    padding-bottom: 45px;
+    padding-top: 18px;
+    font-weight: 650;
+}
+
+#team h2{
+    color:rgb(89, 156, 183);
+    font-weight: 650;
+}
+
+#team .boxes h3{
+   padding-top: 29px;
+   padding-bottom: 4px;
+   font-size: 34px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

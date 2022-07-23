@@ -1,0 +1,265 @@
+*,
+*:after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar-track{
+background-color: white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:skyblue;
+}
+
+
+
+/* home */
+
+#home{  
+    background-repeat: no-repeat;
+    padding: 89px;
+}
+
+#home .item h1{
+    color: rgb(101, 101, 237);
+    text-decoration: underline;
+    font-size: 25px;
+    opacity: 0.99;
+    font-weight: 550;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#home .item p{
+    width: 40%;
+    position: absolute;
+    top: 60%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-weight: 600;
+    color: rgb(23, 21, 21);
+    font-size: 20px;
+    font-weight: 650;
+}
+
+#home .item h2{
+    width: 50%;
+    font-weight: 700;
+    font-size: 65px;
+    position: absolute;
+    top: 30%;
+    left: 11%;
+}
+
+#home img{
+    max-width: 1200px;
+    margin-top: 130px;
+}
+
+.item{
+    padding-top: 160px;
+    margin-left: 100px;
+}
+
+#home .item .btn{
+    position: absolute;
+    top: 70%;
+    left: 11%;
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+font-size: 0.9375rem;
+font-weight: 600;
+box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+-webkit-transition: all 0.4s ease-out 0s;
+-o-transition: all .4s ease-out 8s;
+transition:  all .4s ease-out 0s;
+}
+
+
+
+.container{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#content::before{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#content .item-1{
+    margin: 34px;
+    background-color: rgb(202, 220, 237);
+    color: rgb(16, 16, 22);
+   font-weight: bolder;
+   padding: 10px 0px;
+   border-radius: 5px;
+   width: 22%;
+   display: flex;
+   height: 30%;
+}
+
+#content .item-1:hover{
+    background-color: rgb(43, 43, 168);
+    color: white;
+}
+
+#content .item-2:hover{
+    background-color: rgb(43, 43, 168);
+    color: white;
+}
+
+#content .item-3:hover{
+    background-color: rgb(43, 43, 168);
+    color: white;
+}
+
+#content .item-4:hover{
+    background-color: rgb(43, 43, 168);
+    color: white;
+}
+
+
+#content .item-2{
+    margin: 34px;
+    background-color: rgb(202, 220, 237);
+    color: rgb(16, 16, 22);
+   font-weight: bolder;
+   padding: 10px 0px;
+   border-radius: 5px;
+   width: 22%;
+   display: flex;
+   height: 30%;
+}
+
+#content .item-3{
+    margin: 34px;
+    background-color: rgb(202, 220, 237);
+    color: rgb(16, 16, 22);
+   font-weight: bolder;
+   padding: 10px 0px;
+   border-radius: 5px;
+   width: 22%;
+   height: 30%;
+   display: flex;
+}
+
+#content .item-4{
+    margin: 34px;
+    background-color: rgb(202, 220, 237);
+    color: rgb(16, 16, 22);
+   font-weight: bolder;
+   padding: 10px 0px;
+   border-radius: 5px;
+   width: 22%;
+   display: flex;
+   height: 30%;
+}
+
+#content .container img{
+    width: 67px;
+    height: 34px;
+    margin-top: 24px;
+}
+
+
+.tab-content{
+    width: 122px;
+}
+
+#content h3{
+    margin-top: 20px;
+}
+
+#content h2{
+    color:rgb(89, 156, 183);
+    font-weight: bolder;
+}
+
+#second{
+    margin-top: 84px;
+}
+
+#second img{
+    width: 196px;
+}
+
+#second h2{
+    color:rgb(89, 156, 183);
+    font-weight: bolder;
+}
+
+#second h3{
+    font-weight: 700;
+}
+
+/* second why choose us */
+
+.box {
+    display: flex;
+}
+
+.box1{
+    width: 40%;
+}
+
+.box p{
+    width:60%;
+    margin: auto;
+    font-weight: 600;
+}
+
+.box2{
+    width: 40%;
+}
+
+.box3{
+    width: 40%;
+}
+
+.box4{
+    width: 40%;
+}
+
+.box5{
+    width: 40%;
+}
+
+.box6{
+    width: 40%;
+}
+
+
+
+
+

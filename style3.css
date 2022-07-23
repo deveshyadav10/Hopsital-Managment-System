@@ -1,0 +1,77 @@
+#team .items .photo1{
+    width: 590px;
+    height: 590px;
+    border-radius: 50%;
+    border: 10px solid rgb(237, 235, 235);
+    margin-left: 178px;
+    margin-bottom: 89px;
+}
+
+#team h1{
+    font-size: 45px;
+    padding-bottom: 45px;
+    padding-top: 18px;
+    font-weight: 650;
+}
+
+#team h2{
+    color:rgb(89, 156, 183);
+    font-weight: 650;
+}
+
+#team .items h3{
+   padding-top: 29px;
+   padding-bottom: 4px;
+   font-size: 34px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#team .item1{
+    position: absolute;
+    top: 76%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#team .item2{
+    position: absolute;
+    top: 168%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#team .item3{
+    position: absolute;
+    top: 265%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#team .item4{
+    position: absolute;
+    top: 365%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+
+
+#team .items{
+    display: flex;
+    flex-direction: column;
+}
+
+.photo img{
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media(max-width:990px) {
+  .photo1{
+    margin: 0;
+    padding: 0;
+ }
+}
